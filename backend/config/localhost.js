@@ -3,25 +3,16 @@ const os = require('os');
 module.exports = {
   env: 'localhost',
 
+
   database: {
-    username: 'postgres',
-    dialect: 'postgres',
-    password: '',
+    username: 'root',
+    dialect: 'mysql',
+    password: 'Veganism4Life!',
     database: 'development',
     host: 'localhost',
     logging: console.log,
     operatorsAliases: false,
   },
-
-  // database: {
-  //   username: 'root',
-  //   dialect: 'mysql',
-  //   password: '',
-  //   database: 'development',
-  //   host: 'localhost',
-  //   logging: console.log,
-  //   operatorsAliases: false,
-  // },
 
   email: {
     comment: 'See https://nodemailer.com',

@@ -2,25 +2,14 @@ module.exports = {
   env: 'production',
 
   database: {
-    username: 'postgres',
-    dialect: 'postgres',
-    password: '',
-    database: 'postgres',
-    host: 'postgres',
+    username: 'root',
+    dialect: 'mysql',
+    password: 'Veganism4Life!',
+    database: 'production',
+    host: '<insert public ip here>',
     logging: console.log,
     operatorsAliases: false,
   },
-
-  // database: {
-  //   username: 'root',
-  //   dialect: 'mysql',
-  //   password: '',
-  //   database: 'production',
-  //   host:
-  //     '<insert public ip here>',
-  //   logging: console.log,
-  //   operatorsAliases: false,
-  // },
 
   email: {
     comment: 'See https://nodemailer.com',
@@ -34,8 +23,7 @@ module.exports = {
 
   graphiql: false,
 
-  clientUrl:
-    '<insert client url here>',
+  clientUrl: '<insert client url here>',
 
   defaultUser: null,
 
